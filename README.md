@@ -3,8 +3,8 @@ Ce dépot contient les corrections des labos du groupe 20, n'hésitez pas à le 
 **Je push la correction du labo en cours au plus tard le mercredi à 23h59.**
 
 ## Laboratoires:
-- Semaine 1: Environnement de travail
-- Semaine 2: HTML de base
+- Semaine 1: [Environnement de travail](./LABO1)
+- Semaine 2: [HTML de base](./LABO2)
 - Semaine 3: à venir
 - Semaine 4: à venir
 - Semaine 5: à venir
