@@ -30,7 +30,8 @@ Si vous avez des questions sur la matière vu en classe ou dans les labos, je vo
 - [Télécharger Python](https://www.python.org/downloads/)
 - [IDE PyCharm - gratuit pour les étudiants](https://www.jetbrains.com/pycharm/)
 - [IDE WebStorm - gratuit pour les étudiants](https://www.jetbrains.com/webstorm/)
-<br>
+&nbsp;  
+&nbsp;  
 
 > [!NOTE] 
 > License Apache 2.0 - Vous êtes libres d'utiliser, modifier et distribuer mon code, tant que vous citez © l'auteur original, c'est-à-dire moi :rage2:
