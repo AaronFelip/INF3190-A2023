@@ -1,55 +1,60 @@
-HTML de base
-============
+Environnement de travail
+========================
 
-Vous devez construire une page web contenant votre CV. Vous ne
-devez utiliser que le HTML, sans CSS. Évidemment, votre page web ne sera pas la
-plus jolie en n'utilisant que les valeurs par défaut du fureteur.
-
-Utilisez Google Chrome pour tester l'affichage de votre page.
+Dans cet atelier, vous allez débuter l'apprentissage de vos principaux outils de
+travail : le fureteur et l'éditeur texte.
 
 Objectifs
 ---------
 
-* Manipuler les éléments de base du HTML.
-* Valider un document HTML.
+* Manipuler les outils du fureteur.
+* Écrire un premier document HTML.
+
+Au début de la séance de l'atelier, le moniteur fera une présentation du
+fureteur Google Chrome et de ses outils intégrés :
+* l'affichage du code source de la page HTML;
+* l'inspecteur d'éléments;
+* la console Javascript (pour y voir certains messages d'erreur);
+* la visualisation des requêtes et réponses HTTP (headers et body).
 
 Exercices
 ---------
 
-Après chaque exercice, assurez-vous de valider votre document HTML à l'aide du
-[Validateur du W3C](https://validator.w3.org/) et de corriger toutes les erreurs
-et tous les avertissements.
+1. Faites une requête HTTP GET à l'adresse uqam.ca. Quelle est la version
+   utilisée par le serveur qui vous répond?
 
-1. Construisez un document HTML qui servira à contenir votre CV. Au début, le
-   `body` ne doit contenir que votre nom. Utilisez la balise `h1` pour votre
-   nom.
+2. Allez sur la page du cours INF3190 en navigant sur le site.
+   Trouvez la requête HTTP que le fureteur a envoyé pour produire la page du
+   cours.
 
-2. Sous votre nom, inscrivez vos coordonnées de correspondance (adresse, numéro
-   de téléphone, courriel). Affichez l'adresse comme sur une enveloppe postale
-   et le téléphone et le courriel chacun sur sa propre ligne. Utilisez les
-   balises `p` et `br` pour y parvenir. Il ne doit pas y avoir de séparation de
-   paragraphe entre les lignes des coordonnées de correspondance.
+3. À l'aide de l'inspecteur d'éléments, trouvez l'élément HTML contenant le
+   titre du cours.
 
-3. Ajoutez une section décrivant vos objectifs de carrière. Dans toutes les
-   sections, il doit d'abord y avoir un titre (balise `h2`) et ensuite le
-   contenu. Dans ce cas-ci, le contenu doit être un paragraphe expliquant vos
-   objectifs professionnels. Placez une ligne horizontale (balise `hr`) entre
-   chaque section.
+4. À l'aide de l'inspecteur d'éléments, modifiez le titre du cours.
 
-4. Transformez le courriel dans vos coordonnées de correspondance en lien.
-   Utilisez la balise `a` avec un `mailto`.
+5. À l'aide de l'inspecteur d'éléments, supprimez le titre du cours.
 
-5. Ajoutez une section sur les technologies que vous maîtrisez. La section doit
-   contenir une liste non ordonnée (balises `ul` et `li`) de langages de
-   programmation et d'outils informatiques que vous connaissez.
+6. Choisissez un éditeur texte qui supporte le HTML (c'est-à-dire qui offrira de
+   la coloration syntaxique et des outils de manipulation de HTML). Il est
+   important que l'éditeur enregistre les fichiers HTML avec l'encodage de
+   caractères Unicode (utf-8). Le moniteur pourra vous faire des suggestions
+   d'outils.
 
-6. Ajoutez une section sur vos expériences professionnelles. La section doit
-   contenir un tableau (balises `table`, `thead`, `tbody`, `tr`, `th`,
-   `td`). Le tableau doit contenir une rangée d'entêtes et une rangée pour
-   chaque emploi que vous avez eu. Placez au moins 3 emplois. Le tableau doit
-   contenir 4 colonnes : l'année de l'emploi, le titre de votre poste, le nom de
-   l'entreprise, une liste ordonnée (balises `ol` et `li`) de vos
-   responsabilités triées par ordre d'importance.
+7. Créez un fichier HTML avec le contenu suivant :
 
-7. Ajoutez une photo de vous à votre CV (balise `img`), positionnée
-   immédiatement au-dessus de votre nom, au début du document.
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>L'en-tête</h1>
+
+<p>Le paragraphe.</p>
+
+</body>
+</html>
+```
+
+Ouvrez ce fichier avec Chrome. Observez le résultat.
+
+8. Expérimentez avec ce fichier en ajoutant du texte et des paragraphes.
