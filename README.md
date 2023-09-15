@@ -34,4 +34,4 @@ Si vous avez des questions sur la matière vu en classe ou dans les labos, je vo
 &nbsp;  
 
 > [!NOTE] 
-> License Apache 2.0 - Vous êtes libres d'utiliser, modifier et distribuer mon code, tant que vous citez © l'auteur original, c'est-à-dire moi ou votre prof si il a été fourni par ce dernier:
+> License Apache 2.0 - Vous êtes libres d'utiliser, modifier et distribuer mon code, tant que vous citez © l'auteur original, c'est-à-dire moi ou votre prof si il a été fourni par ce dernier.
