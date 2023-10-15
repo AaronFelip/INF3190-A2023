@@ -9,7 +9,7 @@ pour vos travaux pratiques.
 - Semaine 3: [Labo2 - HTML de base](./LABO2)
 - Semaine 4: [Labo3 - Introduction au CSS](./LABO3)
 - Semaine 5: [Labo4 - CSS (partie 2)](./LABO4)
-- Semaine 6: [Labo5 - Formulaires](./LABO5)
+- Semaine 6: [Labo5 - Formulaires](./LABO5) Jour férié, labo à faire à la maison
 - Semaine 7: [Labo6 - Javascript (partie 1)](./LABO6)
 - Semaine 8: [Labo7 - Javascript (partie 2)](./LABO7)
 - Semaine 9: [Labo8 - Python](./LABO8)
