@@ -1,0 +1,523 @@
+Révision pour l'intra
+
+Question #1
+Qui a gagné la guerre des fureteurs dans les années 1990?
+a) Netscape
+b) Internet Explorer
+c) Firefox
+d) Chrome
+e) Opera
+f) Mosaic
+g) Aucune de ces réponses
+
+Question #2
+Quel est le rôle du fureteur?
+a) Communiquer avec le serveur web
+b) Interpréter la réponse du serveur
+c) Afficher la page à l'utilisateur
+d) Gérer la cache de fichiers
+e) Gérer les cookies et sessions
+f) Toutes ces réponses
+
+Question #3
+Quel élément ne correspond pas à une méthode HTTP?
+a) GET
+b) HEAD
+c) POST
+d) PUT
+e) DELETE
+f) OPTIONS
+g) SECURE
+h) Aucune de ces réponses
+
+
+Question #4
+Qu'est-ce qu'une méthode HTTP sécuritaire?
+a) POST
+b) La méthode ne modifie pas l'état de la ressource
+c) La méthode oblige l'échange de données sécurisées
+d) La méthode ne peut pas produire d'erreur
+e) Toutes ces réponses
+
+Question #5
+Quelle affirmation est fausse?
+a) Un client est léger si toute la logique est programmée au niveau du serveur web.
+b) Un client est lourd si toute la logique, ou une partie de la logique, est programmée au niveau du
+client.
+c) Un serveur web reçoit et interprète des requêtes HTTP.
+d) Un échange avec état (statefull), c'est lorsque l'état est sauvegardé au niveau du client.
+
+Question #6
+Quelle affirmation est vraie?
+a) Le nom des balises XML est insensible à la casse.
+b) Le nom des balises HTML est insensible à la casse.
+c) XML est un dérivé de HTML.
+d) HTML est un dérivé de XML.
+e) Aucune de ces réponses
+
+Question #7
+Quelle information ne se retrouve pas dans l'en-tête (balise head) d'un document HTML?
+a) Le titre du document
+b) L'encodage de caractères utilisé
+c) Des indicateurs pour les moteurs de recherche
+d) L'information sur les droits d'auteur du document
+e) Une liaison vers un document CSS
+
+Question #8
+Quelle balise devons-nous utiliser pour afficher du code source Java dans une page web en
+conservant l'indentation?
+a) blockquote
+b) pre
+c) p
+d) text
+e) ul
+f) span
+
+Question #9
+Quelle est l'utilité de la balise th?
+a) Une cellule de données dans un tableau
+b) Une cellule d'en-tête dans un tableau
+c) Une rangée dans un tableau
+d) Une colonne dans un tableau
+e) La section d'en-tête d'un tableau
+
+Question #10
+Quelle est l'utilité de l'attribut alt de la balise img?
+a) Indiquer une image alternative en cas d'erreur
+b) Indiquer des métadonnées sur l'image
+c) Inscrire l'auteur de l'image pour protéger ses droits d'auteur
+d) Offrir une alternative en texte pour les non-voyants
+e) Toutes ces réponses
+
+Question #11
+Que fait la ligne suivante : <a id="fin">Conclusion</a>
+a) Définir une ancre pour un lien interne
+b) Afficher un lien vers une page web externe
+c) Afficher un lien vers une page web sur le même serveur que la page courante
+d) Afficher un lien vers une adresse courriel
+e) Afficher un lien interne
+Questions à choix multiples Page 3 de 10
+
+Question #12
+Parmi les choix suivants, lequel n'est pas un type de balise input?
+a) text
+b) password
+c) textarea
+d) submit
+e) reset
+f) checkbox
+
+Question #13
+Quelle est l'utilité de l'élément datalist?
+a) Définir une liste réutilisable pour les contrôles de listes déroulantes
+b) Définir les choix d'une série de boutons radios
+c) Définir les choix d'une série de cases à cocher
+d) Définir les données d'une liste non-ordonnée (ul)
+e) Définir la liste des colonnes d'un tableau
+f) Toutes ces réponses
+
+Question #14
+Que se passe-t-il lorsqu'on clique sur un élément label?
+a) Rien
+b) Il devient surligné
+c) Le formulaire est envoyé au serveur
+d) Le champ associé au label est désactivé
+e) Le champ associé au label obtient le focus
+f) Le champ associé au label apparaît
+
+Question #15
+Quelle propriété permet à un champ de formulaire d'apparaître avec une teinte grise et qui refuse de
+donner le focus au champ lorsqu'on clique dessus?
+a) checked
+b) disabled
+c) readonly
+d) writeonly
+e) enabled
+f) unchecked
+
+Question #16
+Où doit-on préciser le script serveur à invoquer lorsqu'on soumet un formulaire HTML?
+a) Dans la propriété value du bouton submit
+b) Dans la propriété form du premier input du formulaire
+c) Dans la propriété method de l'élément form
+d) Dans la propriété action de l'élément form
+e) Dans la balise fermante de l'élément form
+f) Dans la propriété name des éléments input
+
+Question #17
+Quel est l'utilité du style suivant :
+* {
+ background: #000000;
+}
+a) Mettre la couleur du fond de l'élément body en noir
+b) Mettre la couleur du fond de l'élément body en blanc
+c) Mettre la couleur du fond des éléments textes en noir
+d) Mettre la couleur du fond des éléments textes en blanc
+e) Mettre la couleur du fond de tous les éléments en noir
+f) Mettre la couleur du fond de tous les éléments en blanc
+g) Aucune utilité, #000000 n'est pas une couleur
+
+Question #18
+Quel élément parmi les suivants est faux?
+a) La valeur d'un attribut id doit être unique dans tout le document.
+b) L'attribut class sert à identifier un élément HTML de façon unique.
+c) L'unique élément racine du document HTML doit être : html.
+d) Il n'est pas obligatoire qu'un attribut id soit présent dans un document HTML.
+e) Il n'est pas obligatoire qu'un attribut class soit présent dans un élément HTML.
+f) Un élément HTML pourrait avoir plusieurs valeurs dans l'attribut class.
+
+Question #19
+Quel est le poids du style suivant :
+ul li a.externe
+a) 0013
+b) 0031
+c) 0012
+d) 0021
+e) 0130
+f) 0310
+g) 0120
+h) 0210
+
+Question #20
+Quel est le poids du style suivant :
+#content div.amf span.error a
+a) 0312
+b) 0321
+c) 0213
+d) 0231
+e) 0123
+f) 0132
+
+Question #21
+Où se trouve le style le plus prioritaire?
+a) Dans l'en-tête du document HTML
+b) Dans un fichier CSS externe
+c) Dans l'attribut style de l'élément HTML
+d) Dans une balise style
+e) Dans une balise link
+f) À la fin du fichier CSS
+
+Question #22
+Quel élément d'HTML5 devrait être utilisé pour y placer plusieurs liens vers d'autres sites?
+a) article
+b) section
+c) nav
+d) header
+e) footer
+f) tbody
+
+Question #23
+Qu'est-ce qui explique la faible utilisation des éléments sémantiques d'HTML5?
+a) La faible popularité d'HTML
+b) La compatibilité avec les anciens fureteurs
+c) La sémantique vague liée aux éléments
+d) Le support des moteurs de recherche
+e) L'habitude des développeurs à utiliser l'élément div
+
+Question #24
+Quel élément d'HTML5 devrait être utilisé pour y placer un bloc de contenu complet et autosuffisant?
+a) article
+b) section
+c) nav
+d) header
+e) footer
+f) tbody
+
+Question #25
+Selon les recommandations du W3C, quel élément HTML ne devrait se retrouver qu'une seule fois
+dans un document HTML?
+a) h1
+b) h2
+c) h3
+d) h4
+e) h5
+f) h6
+g) Aucune de ces réponses
+
+Question #26
+En général, quel est le point d'entrée d'un site web statique?
+a) Le document accueil.html
+b) Le document default.html
+c) Le document 1.html
+d) Le document index.html
+e) Le document root.html
+f) Le document first.html
+
+Question #27
+Parmi les éléments HTML suivants, lequel ne peut pas être utilisé pour diffuser du contenu audio
+sur un site web?
+a) audio
+b) embed
+c) player
+d) object
+e) Aucune de ces réponses
+
+Question #28
+Pourquoi la balise video permet-elle d'assurer une bonne compatibilité du contenu vidéo?
+a) Elle est normalisée depuis HTML 3.
+b) Elle permet de spécifier plusieurs formats différents.
+c) Elle est supportée par les vieux fureteurs.
+d) Elle ne supporte que le format mp4, mais c'est un format standard et universel.
+e) La compatibilité est la responsabilité du fureteur.
+
+Question #29
+Quel est le nom de la discipline visant à améliorer le référencement d'un site par les moteurs de
+recherche?
+a) Search Engine Optimization
+b) Web Optimization
+c) Web Development and Programming
+d) Web Tuning for Search Engines
+e) Let Me Google That For You
+f) Aucune de ces réponses
+
+Question #30
+Comment peut-on demander à un moteur de recherche de ne pas indexer une page du site en
+particulier?
+a) Avec un sitemap
+b) Avec un fichier robots.txt
+c) En cachant le lien vers la page
+d) En retirant la page une fois par mois, lorsque le moteur de recherche indexe le site
+e) En envoyant une demande officielle sur le site du moteur de recherche
+f) Aucune de ces réponses
+
+Question #31
+Comment peut-on contourner l'algorithme d'indexation PageRank?
+a) En construisant des fausses pages avec des liens qui pointent vers notre site
+b) En cachant tous les mots du dictionnaire dans notre document index.html
+c) En utilisant les méta-données de mot-clés avec tous les mots du dictionnaire
+d) En plaçant du texte dans des images
+e) Avec une application Flash qui améliore le référencement de notre site
+f) En faisant croire aux utilisateurs que notre site est fiable
+
+Question #32
+Parmi les éléments suivants, lequel est un avantage significatif d'utiliser PHP comme technologie
+côté serveur?
+a) Largement supporté par les hébergeurs et outils de développement
+b) Licence peu dispendieuse (moins de 100$ par poste)
+c) Technologie moderne (moins de 3 ans)
+d) Code très facile à maintenir sans framework
+e) Dérivé de Java
+
+Question #33
+Quelle technologie n'est pas présente dans l'architecture LAMP?
+a) Apache
+b) PHP
+c) MySQL
+d) Ant
+e) Linux
+
+Question #34
+Quel est le préfixe utilisé pour les noms de variables en PHP?
+a) <
+b) >
+c) ?
+d) $
+e) php
+f) .
+
+Question #35
+Quel est l'utilité de la fonctionnalité echo en PHP?
+a) Concaténation de chaînes de caractères
+b) Envoyer une chaîne de caractères au fureteur
+c) Lire un en-tête dans la requête HTTP
+d) Faire une redirection par le fureteur
+e) Demander une réponse du fureteur
+
+
+-----------------------------------------------
+
+Question #1
+1. Qu'est-ce que l'architecture d'une application web?
+a) L'ensemble des technologies utilisés
+b) L'ensemble des composants de haut niveau du logiciel
+c) Le protocole de communication utilisé
+d) L'endroit où sont situés les utilisateurs du système
+e) Aucune de ces réponses
+
+Question #2
+Dans l'architecture client-serveur classique, quel composant émet la requête?
+a) Le client
+b) Le serveur
+c) Le client ou le serveur, ça dépend des données échangées
+d) Ni le client, ni le serveur, c'est un composant intermédiaire qui s'en charge
+e) Un microservice
+f) Aucune de ces réponses
+
+Question #3
+Dans l'architecture client-serveur classique, quel composant produit la réponse?
+a) Le client
+b) Le serveur
+c) Le client ou le serveur, ça dépend des données échangées
+d) Ni le client, ni le serveur, c'est un composant intermédiaire qui s'en charge
+e) Un microservice
+f) Aucune de ces réponses
+
+Question #4
+Quel terme décrit le mieux une application web avec beaucoup de logique d'affaires écrite en
+Javascript interprété par le fureteur?
+a) Serveur lourd (fat server)
+b) Serveur léger (thin server)
+c) Client lourd (fat client)
+d) Client léger (thin client)
+
+Question #5
+Dans l'architecture client-serveur classique, le client est connecté à combien de serveurs
+simultanément?
+a) 0
+b) 1
+c) 2
+d) 3
+e) Le nombre n'est pas connu à l'avance, ça dépend du traffic sur le site web
+
+Question #6
+Quelle technologie n'est pas interprété par un fureteur?
+a) Python
+b) Javascript
+c) HTML
+d) CSS
+e) Aucune de ces réponses
+
+Question #7
+Quel port est écouté par défaut par un serveur HTTP?
+a) 25
+b) 5000
+c) 80
+d) 8888
+e) 3000
+f) 21
+
+Question #8
+Quel contenant est utilisé pour envoyer un document HTML au fureteur?
+a) Le head d'une requête HTTP
+b) Le body d'une requête HTTP
+c) Le head d'une réponse HTTP
+d) Le body d'une réponse HTTP
+
+Question #9
+Quelle affirmation suivante est fausse?
+a) Aucun utilisateur ne peut lire le code du frontend
+b) Le frontend n'accède pas directement à la base de données
+c) Le backend est l'intermédiaire entre le frontend et la base de données
+d) Le frontend est exécuté dans le fureteur
+e) Le backend est exécuté sur le serveur
+
+Question #10
+Que doit-on faire si un algorithme breveté ne doit pas être accessible par la concurrence?
+a) Mettre l'algorithme dans le frontend
+b) Mettre l'algorithme dans le backend
+c) Mettre l'algorithme dans le frontend, en maquillant le code pour le rendre illisible
+d) Mettre l'algorithme dans le backend et le frontend
+e) Aucune de ces réponses
+
+Question #11
+Quelles sont les méthodes supportées par les formulaires HTML?
+a) GET et PUT
+b) PUT et DELETE
+c) GET et HEAD
+d) POST et PUT
+e) GET et POST
+f) POST et DELETE
+g) Aucune de ces réponses
+
+Question #12
+Quelle méthode permet à un formulaire HTML d'envoyer les données encodées dans le body de la
+requête HTTP?
+a) GET
+b) PUT
+c) DELETE
+d) HEAD
+e) POST
+f) Aucune de ces réponses
+
+Question #13
+Quelle méthode permet à un formulaire HTML d'envoyer un mot de passe encrypté
+automatiquement dans la requête HTTP?
+a) GET
+b) PUT
+c) DELETE
+d) HEAD
+e) POST
+f) Aucune de ces réponses
+
+Question #14
+Quelle affirmation suivante est fausse?
+a) Un champ de formulaire est un point d'entrée possible pour l'injection SQL.
+b) Un paramètre d'URL est un point d'entrée possible pour l'injection SQL.
+c) Un cookie est un point d'entrée possible pour l'injection SQL.
+d) Un champ caché dans un formulaire est un point d'entrée possible pour l'injection SQL.
+e) Aucune de ces réponses
+
+Question #15
+Quelle affirmation suivante est fausse?
+a) Une URL contient toujours une route.
+b) Une URL contient toujours un nom de domaine ou une adresse IP.
+c) La méthode HTTP GET sert à lire l'état d'une ressource.
+d) Une URL contient toujours un numéro de port.
+e) Une URL peut contenir des paramètres optionnels.
+f) Flask utilise le port 5000 par défaut.
+
+Question #16
+Quel code de statut HTTP doit-on retourner lorsqu'une requête de type GET a fonctionné
+correctement?
+a) 200
+b) 201
+c) 400
+d) 403
+e) 404
+f) 500
+
+Question #17
+Quel code de statut HTTP doit-on retourner lorsqu'une requête de type GET fait référence à une
+ressource inexistante?
+a) 200
+b) 201
+c) 400
+d) 403
+e) 404
+f) 500
+
+Question #18
+Quel code de statut HTTP doit-on retourner lorsqu'une requête de type POST ne contient pas toutes
+les données qu'elle devrait contenir?
+a) 200
+b) 201
+c) 400
+d) 403
+e) 404
+f) 500
+
+Question #19
+Dans l'éventualité où nous voudrions changer de type de base de données dans le futur, que
+pouvons-nous faire pour faciliter ce changement futur?
+a) Ne pas utiliser de base de données
+b) Isoler le code qui utilise la base de données
+c) Ne pas changer de base de données
+d) Utiliser une librairie qui fonctionne avec toutes les bases de données
+e) Aucune de ces réponses
+
+Question #20
+Quelle ligne de code permet de générer une page 404 avec Flask?
+a) return 404
+b) return make_response(render_template('404.html'))
+c) return render_template('404.html'), 404
+d) return render_template('404.html')
+e) return response.render_template('404.html')
+
+Question #21
+Quel exécutable permet de vérifier que le code source d'un projet respecte les conventions de style
+de Python?
+a) flask
+b) pep8
+c) make
+d) python
+e) python --style
+f) Aucune de ces réponses
+
+Question #22
+Quels composants peuvent définir un cookie?
+a) Le fureteur seulement
+b) Le serveur seulement
+c) Le fureteur et le serveur
+d) Le fureteur et le client
+e) Aucune de ces réponses
+Questions à choix multiples Page 8 de 8
