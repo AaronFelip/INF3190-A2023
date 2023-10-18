@@ -72,3 +72,14 @@ input[type="submit"]:hover {
     margin: 25px auto;
     text-align: center;
 }
+
+.interest-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.interest-options label {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
