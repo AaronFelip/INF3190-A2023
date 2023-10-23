@@ -1,0 +1,293 @@
+Question #1
+Quel élément nous permet d'inclure du Javascript dans un document HTML?
+a) link
+b) javascript
+c) script
+d) js
+e) head
+f) Aucune de ces réponses
+
+Question #2
+Quelles sont les différentes portées que peuvent avoir des variables en Javascript?
+a) globale, fonction, privée
+b) publique, protégée, privée
+c) globale, locale
+d) globale, publique, fonction
+e) globale, fonction
+f) autant qu'il peut y avoir de blocs dans le code
+g) publique, privée
+h) globale, fonction, locale
+
+Question #3
+Quel typage est mis en oeuvre avec Javascript?
+a) dynamique
+b) statique
+c) fort
+d) statique fort
+e) statique faible
+f) Il n'y a aucun typage
+
+Question #4
+Quel est le résultat de l'expression suivante en Javascript?
+"3" + 4
+a) 7
+b) "7"
+c) 34
+d) "34"
+e) NaN
+f) null
+g) undefined
+
+Question #5
+Considérant la fonction suivante :
+function test(chiffre) {
+ if (chiffre == 1) {
+ 4;
+ } else if (chiffre == 2) {
+ 5;
+ } else if (chiffre == 3) {
+ 6;
+ } else {
+ 7;
+ }
+}
+
+Que retournera l'appel suivant :
+test("2");
+a) 4
+b) 5
+c) 6
+d) 7
+e) undefined
+f) Ce code ne compile pas
+
+Question #6
+Quelle est la recommandation du W3C implémentée par la variable document en Javascript?
+a) W3C Document
+b) Document Object Model
+c) Online Document Modifier
+d) DHTML
+e) Aucune de ces réponses
+
+Question #7
+Quelle fonction de la variable document ne retourne qu'un seul élément HTML et non pas une liste
+d'éléments?
+a) getElementsByName
+b) getElementsByTagName
+c) getElementById
+d) getElementsByClassName
+e) getSingleElement
+f) Aucune de ces réponses
+
+Question #8
+Que fait la fonction suivante?
+function change() {
+ var bodyElement = document.getElementsByTagName("body")[0];
+ bodyElement.style.backgroundColor = "#f00";
+}
+a) Change la couleur du texte en bleu
+b) Change la couleur du texte en vert
+c) Change la couleur du texte en rouge
+d) Change la couleur des liens en bleu
+e) Change la couleur des liens en vert
+f) Change la couleur des liens en rouge
+g) Change la couleur du fond en bleu
+h) Change la couleur du fond en vert
+i) Change la couleur du fond en rouge
+j) Aucune de ces réponses
+
+Question #9
+Quel cas ne provoque pas une erreur en Javascript?
+a) Invocation d'une fonction inexistante
+b) Utilisation d'une variable non déclarée
+c) Invocation d'un constructeur explicite inexistant
+d) Affectation dans une variable non déclarée
+e) Aucune de ces réponses
+
+Question #10
+Que peut-on lancer avec l'instruction throw en Javascript?
+a) Un code d'erreur sous forme d'entier
+b) Un code d'erreur sous forme de chaîne de caractères
+c) Un objet Javascript fait sur-mesure
+d) Une instance de Error
+e) Toutes ces réponses
+
+Question #11
+Quelle est l'utilité de l'instruction Javascript suivante :
+"use strict";
+a) Importer une librairie
+b) Importer le contenu d'un autre fichier
+c) Utiliser une classe exportée dans un autre fichier
+d) Rendre l'interpréteur plus tolérant aux erreurs Javascript
+e) Rendre l'interpréteur plus sévère au niveau du typage
+f) Toutes ces réponses
+
+Question #12
+Une entreprise ne veut pas que son code Javascript soit facilement lu par ses concurrents. Que peutelle considérer comme solution à son problème?
+a) Ne pas utiliser Javascript
+b) Programmer toutes les fonctionnalités au niveau du serveur
+c) Utiliser un obfuscator
+d) Toutes les réponses précédentes
+e) Aucune de ces réponses
+
+Question #13
+Considérant le code Javascript suivant :
+var test = function(prenom) {
+ return prenom + " Berger";
+}
+Quelle invocation de la fonction provoquera une erreur?
+a) test();
+b) test(3);
+c) test("Jacques");
+d) test("Jacques", 3);
+e) test("Jacques", "Berger");
+f) a, b, d, e
+g) Aucune de ces réponses
+
+Question #14
+Que fait le code Javascript suivant :
+setTimeout("window.location = 'http://jberger.org/'", 5000);
+a) Une redirection après 5000 secondes
+b) Une redirection après 5 secondes
+c) Rien, le premier paramètre est erroné
+d) Rien, le deuxième paramètre est erroné
+e) Rien, cette fonction n'existe pas
+
+Question #15
+À quelle fréquence les cookies sont-ils envoyés au serveur?
+a) À chaque requête HTTP
+b) Lors de la première requête HTTP au serveur
+c) Après 30 jours
+d) Ça dépend du paramètre expires
+e) Lorsque le cookie est effacé
+f) Aucune de ces réponses
+Questions à choix multiples Page 5 de 10
+
+Question #16
+$("button").hide();
+a) Cache seulement un bouton dans la page, n'importe lequel
+b) Cache seulement le premier bouton dans la page
+c) Cache tous les boutons dans la page, incluant ceux avec l'élément input
+d) Cache tous les éléments button dans la page
+e) Aucune de ces réponses
+
+Question #17
+Que fait l'instruction Javascript suivante :
+$("#content").show();
+a) Affiche l'élément content
+b) Affiche tous les éléments content
+c) Affiche l'élément avec l'id content
+d) Affiche tous les éléments avec la classe content
+e) Aucune de ces réponses
+
+Question #18
+Que fait l'instruction Javascript suivante :
+$(":hidden").show();
+a) Affiche tout ce qui est caché dans la page
+b) Affiche tous les éléments avec le nom de balise hidden
+c) Affiche tous les éléments avec la classe hidden
+d) Affiche l'élément avec l'id hidden
+e) Affiche le premier élément caché
+f) Aucune de ces réponses
+
+Question #19
+Considérant le code Javascript suivant :
+$("#fade").click(function() {
+ $("#content").fadeIn();
+});
+Que doit-on faire pour provoquer l'affichage du contenu?
+a) Rien
+b) Cliquer sur un élément fade
+c) Cliquer sur l'élément avec l'id fade
+d) Cliquer sur un élément avec la classe fade
+e) Cliquer sur un élément content
+f) Cliquer sur l'élément avec l'id content
+g) Cliquer sur un élément avec la classe content
+h) Aucune de ces réponses
+
+Question #20
+Quel fureteur est le plus problématique concernant le support aux anciennes versions?
+a) Internet Explorer
+b) Firefox
+c) Chrome
+d) Opera
+e) Safari
+
+Question #21
+Quelles versions d'Internet Explorer peuvent être aisément abandonnées lorsqu'on détermine les
+fureteurs que notre site supportera?
+a) Aucune
+b) IE6 et moins
+c) IE7 et moins
+d) IE8 et moins
+e) IE9 et moins
+
+Question #22
+Quelle est la meilleure approche pour assurer une bonne interopérabilité entre les fureteurs en
+déployant le moins d'effort possible?
+a) Développer avec Internet Explorer
+b) Suivre les standards du web
+c) Ne pas supporter Internet Explorer
+d) Développer avec Chrome
+e) Aucune de ces réponses
+
+Question #23
+Quel est l'objectif de la condition suivante :
+if (document.getElementsByTagName) {
+ // reste du code
+}
+a) On vérifie le résultat du dernier appel à getElementsByTagName
+b) On vérifie la constante getElementsByTagName
+c) On vérifie l'existance d'une fonction avant de l'invoquer
+d) On appelle une fonction
+e) On appelle une fonction et vérifie sa valeur de retour
+f) Aucune de ces réponses
+
+Question #24
+Quelle est la solution mise en place par Microsoft pour aider les développeurs à mieux supporter les
+anciennes versions d'Internet Explorer?
+a) Un excellent support des standards
+b) Des instructions spécifiques à Internet Explorer
+c) Des commentaires conditionnels
+d) Des media queries
+e) Aucune de ces réponses
+
+Question #25
+Selon l'approche du Responsive Design, combien de documents devrions-nous offrir en fonction du
+type d'appareils?
+a) Un seul, pour tous types d'appareils
+b) Un pour les ordinateurs, un pour les appareils mobiles
+c) Un pour les ordinateurs, un pour les tablettes, un pour les téléphones
+d) Un pour chaque type et modèle d'appareil mobile
+e) Aucune de ces réponses
+
+Question #26
+Quel est le désavantage économique pour un site web qui n'est pas responsive?
+a) Frustration des utilisateurs
+b) Perte de traffic
+c) Perte de commanditaires
+d) Attaque la crédibilité de l'organisation
+e) Complexité du développement et de la maintenance du site
+f) Aucune de ces réponses
+
+Question #27
+Comment se nomme la technique de modifier la taille des éléments HTML d'une page en fonction
+de sa taille?
+a) Image flexible
+b) Redimensionnement automatique
+c) Cross-browser
+d) Grille fluide
+e) Image redimensionnable
+f) Media queries
+g) Aucune de ces réponses
+
+Question #28
+Comment se nomme la technique de modifier la taille d'une image en fonction de la taille de son
+conteneur?
+a) Image flexible
+b) Redimensionnement automatique
+c) Cross-browser
+d) Grille fluide
+e) Image redimensionnable
+f) Media queries
+g) Aucune de ces réponses
