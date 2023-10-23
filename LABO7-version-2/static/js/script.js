@@ -92,16 +92,13 @@ $(document).ready(function()
 
         else
         {
-            $("#sub").html("<img src='assets/images/loading.gif'>");
-            // var attachment = {cv: $("#step3 input[type=file]").val()};
-            // var dataString = $("#step1, #step2, #step3").serialize() + '&' + $.param(attachment);
+            $("#sub").html("<img src='/static/images/loading.gif'>");
 
             var dataString = new FormData(document.getElementById("steps"));
 
 
             // console.log(dataString);
 
-            // send form to send.php
             $.ajax({
                 type: "POST",
                 url: "form handling/send.php",
