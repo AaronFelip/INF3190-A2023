@@ -14,8 +14,8 @@ pour vos travaux pratiques.
 - Semaine 8: [Labo7 - Javascript (partie 2)](./LABO7)
 - Semaine 9: [Labo8 - Python](./LABO8)
 - Semaine 10: [Labo9 - Flask (partie 1)](./LABO9)
-- Semaine 11: [Labo10 - Flask (partie 1)](./LABO10)
-- Semaine 12: [Labo11 - Flask (partie 2)](./LABO11)
+- Semaine 11: [Labo10 - Flask (partie 2)](./LABO10)
+- Semaine 12: à venir
 - Semaine 13: à venir
 - Semaine 14: à venir
 - Semaine 15: à venir
