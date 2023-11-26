@@ -15,7 +15,7 @@ pour vos travaux pratiques.
 - Semaine 9: [Labo8 - Python](./LABO8)
 - Semaine 10: [Labo9 - Flask (partie 1)](./LABO9)
 - Semaine 11: [Labo10 - Flask (partie 2)](./LABO10)
-- Semaine 12: à venir
+- Semaine 12: [Labo11 - Soutien au TP3](./LABO11)
 - Semaine 13: à venir
 - Semaine 14: à venir
 - Semaine 15: à venir
